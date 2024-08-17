@@ -1,0 +1,25 @@
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+.navbar-elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  gap: 10px; 
+}
+
+
+ul {
+  padding-left: 20px;
+  list-style-position: inside; /* Liste işaretlerinin içerik alanına daha yakın görünmesini sağlar */
+}
+
+li {
+  margin: 5px 0; 
+}
+

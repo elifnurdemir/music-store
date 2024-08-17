@@ -1,0 +1,40 @@
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.navbar-elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  gap: 10px; 
+}
+
+
+ol {
+  padding-left: 0; 
+  list-style-position: inside; 
+  text-align: center;
+}
+
+li {
+  display: inline-block; 
+  margin-bottom: 20px; 
+}
+
+img {
+  display: block; 
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+}
+
+.product-detail-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
